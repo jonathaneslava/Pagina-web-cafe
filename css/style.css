@@ -1,0 +1,123 @@
+#fondo{
+    background-color: #00AEAA;
+}
+
+.fondo-azul{
+    background-color: #00AEAA;
+}
+
+.contenedor{	
+    margin-right: 150px;
+    margin-left: 150px;
+    overflow: hidden;
+}
+.titulo{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.preparacion{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
+.tiempopreparacion{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imgencabezado{
+    background-size: cover;
+}
+.imgicono{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    margin-top: -500px;
+}
+.imgcirculo{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    margin-top: -130px;
+}
+.lineahorizontal{
+    width: 1030px;
+    height: 5px;
+    background-color: gray;
+}
+.botonIzq{
+    width: 500px;
+    height: 180px;
+    background-color: white;
+    border-radius:5%;
+    float: left;
+}
+.botonDer{
+    width: 500px;
+    height: 180px;
+    background-color: white;
+    border-radius:5%;
+    float: right;
+}
+.alimentoSuperior{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.textoalimento{
+    float: right;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: gray;
+}
+.alimentoInferior{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 110px;
+    margin-left: 10px;
+}
+.imgcomida{
+    float: right;
+    width: 140px;
+    height: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-radius:5%;
+}
+
+/*Celular*/
+@media(max-width: 767px){
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+}
+
+/*Tablet*/
+@media(min-width: 768px) and (max-width: 990px){
+    .desktop{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+}
+
+/*Pc*/
+@media(min-width: 991px){
+    .tablet{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }

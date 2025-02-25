@@ -1,11 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Menú de Ejemplo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
-    
+
+<body class="fondo-azul">
+    <!-- Encabezado -->
+    <header>
+	<div class="desktop">
+		<div class="text-center">
+            		<img src="css/imagenes/Inicio.jpg" class="imgencabezado">
+       		</div>
+	</div>
+        <div class="tablet">
+		<div class="text-center">
+            		<img src="css/imagenes/Inicio.jpg" class="imgencabezado">
+       		</div>
+	</div>
+        <div class="movil">
+		<div class="text-center">
+            		<img src="css/imagenes/Inicio.jpg" class="imgencabezado">
+       		</div>
+	</div>
+        <div class="container my-3">
+        	<div class="text-end">
+			<a href="https://youtube.com.mx">
+            			<img src="css/imagenes/ubicacion.jpg" class="imgicono">
+                	</a>
+			<a href="https://youtube.com.mx">
+				<img src="css/imagenes/descarga.jpg" class="imgicono">
+			</a>
+       		</div>
+	</div>
+        <div class="text-center">
+                <img src="css/imagenes/Circulo.jfif" class="imgcirculo">
+        </div>
+        <div>
+            	<h2 class="titulo">Menú de Ejemplo</h2>
+            	<p class="preparacion">Tiempo de preparación</p>
+            	<h4 class="tiempopreparacion">10-15 minutos</h4>
+        </div>
+    </header>
+ 
+    <!-- Contenido -->
+    <main>
+        <!-- Seccion: Alitas y Boneless: Tiene la clase container que acota el tamano en dispositivos mas grandes. -->
+        <section class="container my-3">
+            <!-- Encabezado de la seccion -->
+            <div>
+                <h2>Alitas y Boneless</h2>
+                <hr class="divider">
+            </div>
+            <!-- Contenido -->
+            <div class="row">
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+		    <div>
+                        <h3 class=alimentoSuperior>Alitas</h3>
+                        <h3 class=alimentoInferior>Desde $80</h3>
+                    </div>
+                    <img src="css/imagenes/Alitas.jfif" class="imgcomida">
+                </div>
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+		    <div>
+                        <h3 class=alimentoSuperior>Boneless</h3>
+                        <h3 class=alimentoInferior>Desde $80</h3>
+                    </div>
+                    <img src="css/imagenes/Boneless.jfif" class="imgcomida">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion: Combos -->
+        <section class="container my-3">
+            <!-- Encabezado de la seccion -->
+            <div>
+                <h2>Combos</h2>
+                <hr class="divider">
+            </div>
+            <!-- Contenido -->
+            <div class="row">
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Combo Individual</h3>
+			<p class="textoalimento">Hamburguesa a elegir + complemento + bebida 600ml</p>
+                        <h3 class=alimentoInferior>Desde $159</h3>
+                    </div>
+                    <img src="css/imagenes/comboindividual.jfif" class="imgcomida">
+                </div>
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Combo Amigos</h3>
+			<p class="textoalimento">25 de alitas o 1Kg de Boneless + papas a la francesa + dedos de queso o aros de cebolla</p>
+                        <h3 class=alimentoInferior>Desde $300</h3>
+                    </div>
+                    <img src="css/imagenes/comboamigos.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Combo Cuates</h3>
+			<p class="textoalimento">2 sandwiches, acompañados de 2 bebidas. Perfecto para compartir y saborear una comida</p>
+                        <h3 class=alimentoInferior>Desde $249</h3>
+                    </div>
+                    <img src="css/imagenes/combocuates.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Combo Familiar</h3>
+			<p class="textoalimento">20 alitas + 500gr de Boneless + 4 bebidas a elegir + 3 complementos a legir + nachos</p>
+                        <h3 class=alimentoInferior>Desde $549</h3>
+                    </div>
+                    <img src="css/imagenes/combofamiliar.jfif" class="imgcomida">
+                </div>
+            </div>
+        </section>
+
+	<!-- Seccion: Hamburguesas -->
+        <section class="container my-3">
+            <!-- Encabezado de la seccion -->
+            <div>
+                <h2>Hamburguesas</h2>
+                <hr class="divider">
+            </div>
+            <!-- Contenido -->
+            <div class="row">
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Classic Burger</h3>
+			<p class="textoalimento">Carne USDA CHOICE, quesos cheddar y Monterrey Jack, en bollo de mantequilla.</p>
+                        <h3 class=alimentoInferior>Desde $109</h3>
+                    </div>
+                    <img src="css/imagenes/classicburguer.jfif" class="imgcomida">
+                </div>
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Crispy Burger</h3>
+			<p class="textoalimento">Crujiente y dorada, nuestra Crispy Burguer lleva 150gr de carne, queso cheddar, Monterrey Jack</p>
+                        <h3 class=alimentoInferior>Desde $119</h3>
+                    </div>
+                    <img src="css/imagenes/crispyburguer.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Piña Burger</h3>
+			<p class="textoalimento">Rodaja de piña a la parrilla, jugosa carne, queso cheddar o Monterrey Jack en pan.</p>
+                        <h3 class=alimentoInferior>Desde $249</h3>
+                    </div>
+                    <img src="css/imagenes/pinaburguer.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Onion Burger</h3>
+			<p class="textoalimento">Cebolla crujiente, 150gr de carne, queso cheddar y Monterrey, en un pan de mantequilla</p>
+                        <h3 class=alimentoInferior>Desde $149</h3>
+                    </div>
+                    <img src="css/imagenes/onionburguer.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Pollito Burger</h3>
+			<p class="textoalimento">3 Tiras Crujientes de pechuga de pollo, lechuga, tomate, queso chedar y aderezos de la casa</p>
+                        <h3 class=alimentoInferior>Desde $149</h3>
+                    </div>
+                    <img src="css/imagenes/pollitoburguer.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Monster Burger</h3>
+			<p class="textoalimento">Triple carne (450gr), queso cheddar, Monterrey Jack, tocino crujiente, cebolla caramelizada.</p>
+                        <h3 class=alimentoInferior>Desde $213</h3>
+                    </div>
+                    <img src="css/imagenes/monsterburguer.jfif" class="imgcomida">
+                </div>
+            </div>
+        </section>
+
+	<!-- Seccion: tacos. -->
+        <section class="container my-3">
+            <!-- Encabezado de la seccion -->
+            <div>
+                <h2>Taquería</h2>
+                <hr class="divider">
+            </div>
+            <!-- Contenido -->
+            <div class="row">
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Taco de pastor</h3>
+			<p class="textoalimento">Pastor cocinado lentamente al trompo, piña, cebolla, cilantro y salsas van aparte.</p>
+                        <h3 class=alimentoInferior>Desde $18</h3>
+                    </div>
+                    <img src="css/imagenes/tacopastor.jfif" class="imgcomida">
+                </div>
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Torta</h3>
+			<p class="textoalimento">Torta deliciosa con opciones a elegir: pastor, suadero, arrachera o sirloin.</p>
+                        <h3 class=alimentoInferior>Desde $55</h3>
+                    </div>
+                    <img src="css/imagenes/torta.jfif" class="imgcomida">
+                </div>
+            </div>
+        </section>
+
+	<!-- Seccion: Sushi. -->
+        <section class="container my-3">
+            <!-- Encabezado de la seccion -->
+            <div>
+                <h2>Sushi</h2>
+                <hr class="divider">
+            </div>
+            <!-- Contenido -->
+            <div class="row">
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>California Roll</h3>
+                        <h3 class=alimentoInferior>Desde $109</h3>
+                    </div>
+                    <img src="css/imagenes/californiaroll.jfif" class="imgcomida">
+                </div>
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Hiroki Roll</h3>
+                        <h3 class=alimentoInferior>Desde $109</h3>
+                    </div>
+                    <img src="css/imagenes/hirokiroll.jfif" class="imgcomida">
+                </div>
+            </div>
+        </section>
+
+	<!-- Seccion: Pizzas. -->
+        <section class="container my-3">
+            <!-- Encabezado de la seccion -->
+            <div>
+                <h2>Pizzas</h2>
+                <hr class="divider">
+            </div>
+            <!-- Contenido -->
+            <div class="row">
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>¡Arma tu pizza!</h3>
+			<p class="textoalimento">Arma tu pizza y escoge hasta 4 ingredientes a tu eleccion.</p>
+                        <h3 class=alimentoInferior>Desde $159</h3>
+                    </div>
+                    <img src="css/imagenes/armatupizza.jfif" class="imgcomida">
+                </div>
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Pizza pepperoni</h3>
+			<p class="textoalimento">Pepperoni + queso + base de tomate</p>
+                        <h3 class=alimentoInferior>Desde $55</h3>
+                    </div>
+                    <img src="css/imagenes/pizzapepperoni.jfif" class="imgcomida">
+                </div>
+            </div>
+        </section>
+
+	<!-- Seccion: Snacks -->
+        <section class="container my-3">
+            <!-- Encabezado de la seccion -->
+            <div>
+                <h2>Snacks</h2>
+                <hr class="divider">
+            </div>
+            <!-- Contenido -->
+            <div class="row">
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Churros</h3>
+			<p class="textoalimento">Churros crujientes y dorados. espolvoreados con azúcar y canela.</p>
+                        <h3 class=alimentoInferior>Desde $49</h3>
+                    </div>
+                    <img src="css/imagenes/churros.jfif" class="imgcomida">
+                </div>
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Esquite</h3>
+    			<p class="textoalimento">Granos tiernos de maíz dorados a la perfección, mezclados con queso cotija desmoronado.</p>
+                        <h3 class=alimentoInferior>Desde $59</h3>
+                    </div>
+                    <img src="css/imagenes/esquite.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Papanachos</h3>
+			<p class="textoalimento">Papas de tu elección crijientes, bañadas en un delicioso y cremoso queso de nachos.</p>
+                        <h3 class=alimentoInferior>Desde $85</h3>
+                    </div>
+                    <img src="css/imagenes/papanachos.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Papitas preparadas</h3>
+			<p class="textoalimento">2 Papas preparadas a tu elección, preparadas con esquite ¡Un antojo irresistible!</p>
+                        <h3 class=alimentoInferior>Desde $95</h3>
+                    </div>
+                    <img src="css/imagenes/papitaspreparadas.jfif" class="imgcomida">
+                </div>
+            </div>
+        </section>	
+	
+	<!-- Seccion: Frappes y Smoothies. -->
+        <section class="container my-3">
+            <!-- Encabezado de la seccion -->
+            <div>
+                <h2>Frappes y Smoothies</h2>
+                <hr class="divider">
+            </div>
+            <!-- Contenido -->
+            <div class="row">
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Smoothie Moras</h3>
+			<p class="textoalimento">Un batido refrescante y nutritivo, cargado de moras frescas, hierbabuena y un toque de moras.</p>
+                        <h3 class=alimentoInferior>Desde $90</h3>
+                    </div>
+                    <img src="css/imagenes/moras.jfif" class="imgcomida">
+                </div>
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Smoothie Mango/Chamoy</h3>
+			<p class="textoalimento">Un vibrante batido de mango fresco con un toque picante de chamoy, ideal para refrescar.</p>
+                        <h3 class=alimentoInferior>Desde $95</h3>
+                    </div>
+                    <img src="css/imagenes/mangochamoy.jfif" class="imgcomida">
+                </div>
+            </div>
+        </section>
+
+	<!-- Seccion: Bebidas. -->
+        <section class="container my-3">
+            <!-- Encabezado de la seccion -->
+            <div>
+                <h2>Bebidas</h2>
+                <hr class="divider">
+            </div>
+            <!-- Contenido -->
+            <div class="row">
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Coca Cola</h3>
+			<p class="textoalimento">Diferentes presentaciones</p>
+                        <h3 class=alimentoInferior>Desde $25</h3>
+                    </div>
+                    <img src="css/imagenes/cocacola.jfif" class="imgcomida">
+                </div>
+                <!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Fresca</h3>
+			<p class="textoalimento">Presentación de 600 ml</p>
+                        <h3 class=alimentoInferior>Desde $30</h3>
+                    </div>
+                    <img src="css/imagenes/fresca.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Mundet</h3>
+			<p class="textoalimento">Presentación de 600 ml</p>
+                        <h3 class=alimentoInferior>Desde $30</h3>
+                    </div>
+                    <img src="css/imagenes/mundet.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Sprite</h3>
+			<p class="textoalimento">Presentación de 600 ml</p>
+                        <h3 class=alimentoInferior>Desde $30</h3>
+                    </div>
+                    <img src="css/imagenes/sprite.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Agua mineral</h3>
+			<p class="textoalimento">Presentación de 600 ml</p>
+                        <h3 class=alimentoInferior>Desde $30</h3>
+                    </div>
+                    <img src="css/imagenes/aguamineral.jfif" class="imgcomida">
+                </div>
+		<!-- Elemento -->
+                <div class="card col-md-6 d-flex flex-row justify-content-between" role="button">
+                    <div>
+                        <h3 class=alimentoSuperior>Lipton</h3>
+			<p class="textoalimento">Presentación de 600 ml</p>
+                        <h3 class=alimentoInferior>Desde $30</h3>
+                    </div>
+                    <img src="css/imagenes/lipton.jfif" class="imgcomida">
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
 </html>
