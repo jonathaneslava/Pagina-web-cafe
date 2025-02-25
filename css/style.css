@@ -85,6 +85,9 @@
     margin-bottom:10px;
     border-radius:5%;
 }
+.imgmodal{
+    background-size: cover;
+}
 
 /*Celular*/
 @media(max-width: 767px){
