@@ -24,8 +24,11 @@
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.imgencabezado{
-    background-size: cover;
+.imgencabezado {
+    width: 100%;        /* La imagen ocupa todo el ancho disponible */
+    height: 245px;      /* Altura fija */
+    object-fit: cover;  /* Recorta la imagen si es necesario */
+    object-position: left center; /* Asegura que el recorte solo ocurra en la derecha */
 }
 .imgicono{
     width: 40px;
